@@ -1,0 +1,56 @@
+body {
+    background-color: #121B26; /* Tumman sininen väri taustalle */
+    color: #FFFFFF; /* Text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1A2634; 
+    border-radius: 10px; 
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF; /* Valkoinen tausta dropdown-valikolle */
+    color: #121B26; /* Tumman sininen tekstiväri */
+}
+
+.movie-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.movie-item img {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.movie-info {
+    flex: 1;
+}
+
+.movie-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.movie-start {
+    font-size: 16px;
+}
+
